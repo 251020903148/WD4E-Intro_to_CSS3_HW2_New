@@ -46,3 +46,33 @@ img{
 .flex{
     display: flex;
 }
+li{
+    list-style-type: none;
+}
+nav{
+    display: inline-block;
+    width: 80%;
+}
+nav img{
+    width: 10%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+.grid img{
+    width: 100%;
+}
+.grid{
+    align-items: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex img{
+    width: 30%;
+}
