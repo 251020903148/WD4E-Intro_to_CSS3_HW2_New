@@ -39,3 +39,10 @@ p{
 img{
     width: 10%;
 }
+.grid{
+    display: grid;
+}
+
+.flex{
+    display: flex;
+}
