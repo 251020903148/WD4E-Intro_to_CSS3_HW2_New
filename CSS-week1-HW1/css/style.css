@@ -8,6 +8,8 @@ header{
 }
 
 nav{
+    display: inline-block;
+    width: 80%;
     background-color: lightgray;
 }
 
@@ -22,7 +24,7 @@ footer{
 
 li{
     display: inline-block;
-    width: 150px;
+    width: auto;
 }
 
 h1{
@@ -33,4 +35,7 @@ h1{
 
 p{
     line-height: 1.6;
+}
+img{
+    width: 10%;
 }
