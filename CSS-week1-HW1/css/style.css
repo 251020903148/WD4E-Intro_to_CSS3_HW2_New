@@ -8,9 +8,9 @@ header{
 }
 
 nav{
+    background-color: lightgray;
     display: inline-block;
     width: 80%;
-    background-color: lightgray;
 }
 
 main{
@@ -25,6 +25,7 @@ footer{
 li{
     display: inline-block;
     width: auto;
+    list-style-type: none;
 }
 
 h1{
@@ -36,43 +37,29 @@ h1{
 p{
     line-height: 1.6;
 }
-img{
-    width: 10%;
-}
-.grid{
-    display: grid;
-}
 
-.flex{
-    display: flex;
-}
-li{
-    list-style-type: none;
-}
-nav{
-    display: inline-block;
-    width: 80%;
-}
 nav img{
     width: 10%;
 }
+
 .grid{
     display: grid;
     grid-template-columns: 40% 40%;
     justify-content: space-around;
     row-gap: 20px;
+    align-items: center;
 }
+
 .grid img{
     width: 100%;
 }
-.grid{
-    align-items: center;
-}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .flex img{
     width: 30%;
 }
